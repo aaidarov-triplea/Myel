@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+body {
+  background-color: #F1F1F1;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.promotion {
+  height: 40px;
+  background-color: #D8BF95;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  padding: 0 30px;
+}
+.header-nav {
+  width: 70%;
+}
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav a {
+  font-size: 14px;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+.auth {
+  display: flex;
+  align-items: center;
+}
+.auth a {
+  font-size: 14px;
+  line-height: 125%;
+  text-transform: uppercase;
+  margin-right: 27px;
+}
+.auth span {
+  font-size: 12px;
+  line-height: 115%;
+}
+.lang {
+margin-right: 77px;
+font-size: 14px;
+line-height: 125%;
+cursor: pointer;
+}
+.lang span {
+  color: #C4C4C4;
+}
+/*============HERO CONTENT==========*/
+.hero {
+  display: flex;
+}
+.hero-img {
+  position: relative;
+  width: 100%;
+}
+.hero-img span {
+  position: absolute;
+  left: 25px;
+  bottom: 5%;
+
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 125%;
+}
+
+.hero-img h2 {
+  position: absolute;
+  right: 66px;
+  bottom: 18%;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+/* ==================================== */
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 116px;
+  margin-bottom: 153px;
+}
+
+.row {
+  width: 60%;
+}
+
+.row h2 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  margin-bottom: 31px;
+}
+
+.row p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+}
+
+/*============ ARRYVALS ============*/
+.arrivals-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.arrivals-row h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.arrow-item span {
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.arrow-item span:first-child {
+  margin-right: 20px;
+}
+
+.arrivals-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.arrivals-info h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+.arrivals-info h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  width: 316px;
+  margin-right: 40px;
+}
+
+.arrivals-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 173px;
+}
+
+.arrivals-items a {
+  margin-right: 28px;
+  display: flex;
+  align-items: flex-end;
+}
+.arrivals-items a:last-child {
+  margin-right: 0;
+}
+.items-img {
+  width: 341px;
+  max-height: 443px;
+  margin-right: 15px;
+  position: relative;
+}
+.items-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.items-img p {
+  position: absolute;
+  left: 43px;
+  bottom: -3px;
+}
+
+/* =============BONNE ============*/
+
+.bonne-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 43px;
+}
+
+.bonne-cloth-left, .bonne-cloth-right {
+  width: 720px;
+  height: 936px;
+  position: relative;
+}
+
+.bonne-cloth-left img, .bonne-cloth-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.bonne-cloth-right h2 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 136%;
+
+  position: absolute;
+  left: 50px;
+  top: 47px;
+}
+
+.bonne-cloth-right p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 125%;
+
+  position: absolute;
+  left: 50px;
+  bottom: 64px;
+}
+
+/*======== CATEGORIES ==========*/
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px;
+}
+
+.categories h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+}
+.categories__items {
+  display: flex;
+  justify-content: center;
+}
+
+.categories__item {
+  margin-right: 23px;
+  margin-top: 10px;
+  width: 422px;
+  height: 553px;
+  position: relative;
+}
+.categories__item:last-child {
+  margin-right: 0;
+}
+
+.categories__item img {
+  width: 100%;
+  height: 100%;
+}
+
+.categories__item p {
+  position: absolute;
+  left: 15px;
+  bottom: 12px;
+
+  color: #fff;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 127%;
+}
+
+.categories__pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15px;
+  margin-bottom: 90px;
+}
+
+.categories__pages button {
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+}
+.btn-active {
+  background-color: #000;
+  margin-right: 12px;
+}
+.btn-disactive {
+  background-color: #C4C4C4;
+}
+
+/* ======BOOKS ============== */
+
+.books-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.books__item {
+  width: 720px;
+  height: 936px;
+  position: relative;
+}
+
+.books__item p {
+  position: absolute;
+  top: 31px;
+  left: 45px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+}
+
+.books__item img {
+  width: 100%;
+  height: 100%;
+}
+
+/*=====SERVICE ============*/
+.service {
+  margin-bottom: 50px;
+}
+
+.service__title {
+  margin: 37px 0 84px 0;
+  width: 630px;
+
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 140%;
+}
+
+.service__item {
+  display: flex;
+  justify-content: center;
+}
+
+.service__card {
+  margin-right: 20px;
+}
+.service__card:last-child {
+  margin-right: 0;
+}
+
+.card__img {
+  text-align: center;
+  margin-bottom: 68px;
+}
+
+.card__img img {
+  width: 233px;
+  height: 233px;
+}
+
+.service__card h1 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  margin-bottom: 72px;
+}
+
+.service__card p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  margin-bottom: 55px;
+}
+
+.service__link {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+/*==RIGNS======*/
+.rigns {
+  display: flex;
+  margin-bottom: 50px;
+}
+.rigns__item1 {
+  background-image: url('./img/ring-01.jpg');
+  background-size: cover;
+  width: 720px;
+  height: 936px;
+}
+
+.rigns__item1 p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  padding: 67px 0 0 50px;
+}
+
+.rigns__item2 {
+  background-image: url('./img/ring-02.jpg');
+  background-size: cover;
+  width: 720px;
+  height: 936px;
+
+  position: relative;
+}
+
+.rigns__item2 h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 125%;
+
+  padding: 47px 0 0 50px;
+}
+
+.rigns__item2 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 125%;
+
+  position: absolute;
+  left: 50px;
+  bottom: 64px;
+}
+
+/*=============*/
+.subs {
+  background-image: url('./img/ring-03.jpg');
+  background-size: cover;
+
+  height: 549px;
+}
+
+.subs__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px 0 60px;
+}
+
+.subs__link a {
+  color: #fff;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 60px;
+
+  width: 407px;
+  height: 48vh;
+}
+
+.subscribe h2 {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 130%;
+  color: #fff;
+}
+
+.subscribe p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  color: #fff;
+  margin: 32px 0;
+}
+
+.subscribe input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  margin-bottom: 19px;
+  outline: none;
+  position: relative;
+}
+
+.subscribe input::before {
+  content: '→';
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/*====FOOTER===========*/
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 64px 58px 64px;
+}
+
+.left__links,
+.right__links {
+  display: flex;
+}
+
+.ring__link{
+  margin-top: 47px;
+  margin-left: 142px;
+}
+
+.myel__link {
+  margin: 0 92px;
+}
+
+.shop__link h4,
+.support__link h4,
+.myel__link h4,
+.visit__link h4 {
+  margin-bottom: 21px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 139%;
+}
+
+.shop__link li,
+.ring__link li,
+.support__link li,
+.myel__link li,
+.visit__link li {
+  margin-bottom: 10px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 64px;
+}
+
+.social-media h4 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 131%;
+  margin-bottom: 20px;
+}
+
+.footer__social p,
+.footer__social a {
+  color: #9b9b9b;
+  font-weight: 400;
+  font-size: 14px;
+}
